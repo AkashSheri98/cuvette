@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #6F6AF7;
+    
+}
+ul > li{
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0.8rem;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+select{
+    border: none;
+    background-color: transparent;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.logo a{
+    color: #FFF;
+    font-family: Delius Unicase;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+.search{
+    border:0;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    padding: 10px;
+    font-size: large;
+}
+.toggle-btn i{
+    font-size: xx-large !important ; 
+    margin-left: 50%;
+    padding:0.8rem;
+    float: left;
+    color: #FFF;
+}
+/* main content
+--------------------------------------------- */
+main{
+    padding-top: 150px;
+}
+#social-icon{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    right: 0.5%;
+}
+
+#social-icon img{
+    width:4vw!important;    /* width of social icons */
+    
+}
+#banner-1{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+#banner-1 img{
+    width: 300px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+textarea{
+    width: 900px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 6px solid #FFF;
+    background: #E5D8FF;
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+    color: #6F7373;
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 178.7%; /* 51.823px */
+    resize: none;
+    text-align: justify;
+    padding: 0.8rem;
+}
+#support img{
+    width:6vw!important;    /* width of social icons */
+    position: fixed;
+    z-index: 2;
+    right: 10%;
+    top:85%;
+    
+}
+#cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding:1rem;
+}
+.card-1,.card-2,.card-3,.card-4{
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px rgba(0, 0, 0, 0.40);
+    width: 250px;
+    height: 100px;
+    flex-shrink: 0;
+}
+#cards p{
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    padding: 0.5rem;
+    padding-left:1rem;
+    font-weight: 700;
+    line-height: 178.7%; /* 51.823px */
+    letter-spacing: 1.16px;
+}
+/* details section*/
+#details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 1225px;
+    height: 520px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    background: #483EFF;
+}
+
+#details .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#details .right{
+    width: 800px;
+    height: 475px;
+    margin-top:2%;
+    flex-shrink: 0;
+    border-radius: 19px;
+    background: #FFF;
+    padding: 1rem;
+    color: #04285A;
+    letter-spacing: 1.4px;
+}
+#details button{
+    width: 270px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    border: 5px solid #FFF;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.7%; /* 62.545px */
+    letter-spacing: 1.4px;
+    background: transparent;
+}
+#arrow{
+    width: 30px;
+    height: 20px;
+}
